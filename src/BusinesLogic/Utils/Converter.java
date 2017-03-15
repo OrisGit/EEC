@@ -1,4 +1,4 @@
-package Utils;
+package BusinesLogic.Utils;
 
 /**
  * Created by Oris on 15.03.2017.

@@ -1,4 +1,4 @@
-package Labs;
+package BusinesLogic.Labs;
 
 /**
  * Created by Oris on 15.03.2017.
