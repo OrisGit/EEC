@@ -34,7 +34,7 @@ public class MainForm extends Application {
     private void showLabWork1() {
         try {
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("mainForm.fxml"));
+            loader.setLocation(getClass().getResource("GUI/View/mainForm.fxml"));
             TabPane personOverview = (TabPane) loader.load();
 
             // Помещаем сведения об адресатах в центр корневого макета.
@@ -48,7 +48,7 @@ public class MainForm extends Application {
         try {
             // Загружаем корневой макет из fxml файла.
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("rootLayout.fxml"));
+            loader.setLocation(getClass().getResource("GUI/View/rootLayout.fxml"));
             rootLayout = (BorderPane) loader.load();
 
             // Отображаем сцену, содержащую корневой макет.
