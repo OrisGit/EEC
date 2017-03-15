@@ -5,8 +5,10 @@
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.control.Menu;
 import javafx.scene.control.TabPane;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -15,6 +17,8 @@ public class MainForm extends Application {
 
     private BorderPane rootLayout;
     private Stage primaryStage;
+
+
 
     public static void main(String[] args) {
         launch(args);
@@ -34,7 +38,7 @@ public class MainForm extends Application {
     private void showLabWork1() {
         try {
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("GUI/View/mainForm.fxml"));
+            loader.setLocation(getClass().getResource("GUI/View/LabWork1Layout.fxml"));
             TabPane personOverview = (TabPane) loader.load();
 
             // Помещаем сведения об адресатах в центр корневого макета.
@@ -55,7 +59,6 @@ public class MainForm extends Application {
             Scene scene = new Scene(rootLayout);
             primaryStage.setScene(scene);
             primaryStage.setResizable(false);
-
         } catch (IOException e) {
             e.printStackTrace();
         }

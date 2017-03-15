@@ -17,7 +17,7 @@ import java.util.Map;
 /**
  * Created by Oris on 15.03.2017.
  */
-public class LabWork1Controller {
+public class LabWork1Controller extends Controller{
 
     @FXML
     private TextField tf_coilResistance;
@@ -106,8 +106,6 @@ public class LabWork1Controller {
     }
 
     private void setDataInTable(Table data){
-
-
         for (int i=0;i<data.getNames().size();i++) {
             tableColumns.add(new TableColumn<>(data.getNames().get(i)));
             tableColumns.get(i).setCellValueFactory(new MapValueFactory<>(data.getNames().get(i)));
@@ -130,19 +128,6 @@ public class LabWork1Controller {
         return allData;
     }
 
-    private double[] toDouble(Object[] array){
-        double[] newArr = new double[array.length];
-            for (int i = 0; i<array.length;i++){
-                newArr[i] = Double.parseDouble(array[i].toString());
-            }
-            return newArr;
-    }
 
-    private boolean isNumber(String text){
-        if(text.matches("([0-9]+(.[0-9]+)?)")){
-            return true;
-        }
-        return false;
-    }
 
 }
