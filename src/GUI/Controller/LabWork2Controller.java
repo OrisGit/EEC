@@ -2,6 +2,7 @@ package GUI.Controller;
 
 
 import BusinesLogic.Labs.LabWork1;
+import BusinesLogic.Labs.LabWork2;
 import BusinesLogic.Labs.Table;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -17,10 +18,7 @@ import java.util.Map;
 /**
  * Created by Oris on 15.03.2017.
  */
-public class LabWork1Controller extends LabWorkController{
-
-    @FXML
-    private TextField tf_coilResistance;
+public class LabWork2Controller extends LabWorkController{
 
     @FXML
     private Button btn_сalculate;
@@ -32,7 +30,7 @@ public class LabWork1Controller extends LabWorkController{
     private TextField tf_frequency;
 
     @FXML
-    private TextField tf_inductance;
+    private TextField tf_сapacity;
 
     @FXML
     private TextField tf_resistorResistance;
@@ -52,7 +50,7 @@ public class LabWork1Controller extends LabWorkController{
     private List<TableColumn<Map,String>> tableColumns = new ArrayList<>();
 
 
-    public LabWork1Controller(){
+    public LabWork2Controller(){
     }
 
     @Override
@@ -70,7 +68,7 @@ public class LabWork1Controller extends LabWorkController{
 
     private void click_addFrequency(){
         if(isNumber(tf_frequency.getText())){
-           lv_frequencies.getItems().add(tf_frequency.getText());
+            lv_frequencies.getItems().add(tf_frequency.getText());
         }
         else {
             Alert d = new Alert(Alert.AlertType.ERROR);
@@ -94,13 +92,11 @@ public class LabWork1Controller extends LabWorkController{
     }
 
     private void click_calculate(){
-        if(isNumber(tf_coilResistance.getText()) && isNumber(tf_inductance.getText()) &&
-                isNumber(tf_resistorResistance.getText()) && isNumber(tf_voltage.getText())){
+        if (isNumber(tf_сapacity.getText()) && isNumber(tf_resistorResistance.getText()) && isNumber(tf_voltage.getText())){
 
 
-            LabWork1 lb = new LabWork1(Double.parseDouble(tf_inductance.getText()),
-                    Double.parseDouble(tf_voltage.getText()), Double.parseDouble(tf_resistorResistance.getText()),
-                    Double.parseDouble(tf_coilResistance.getText()),toDouble(lv_frequencies.getItems().toArray()));
+            LabWork2 lb = new LabWork2(Double.parseDouble(tf_сapacity.getText()),
+                    Double.parseDouble(tf_voltage.getText()), Double.parseDouble(tf_resistorResistance.getText()),toDouble(lv_frequencies.getItems().toArray()));
 
             setDataInTable(lb.getTable());
 

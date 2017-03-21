@@ -84,6 +84,42 @@ abstract public class LabWork {
     }
 
     /**
+     * Возвращает реактивное сопротивление емкости (xC)
+     * @param electricCapacitance - Электрическая ёмкость (C)
+     * @param angularFrequency - угловая частота гармонического тока (ω)
+     */
+    public double reactangleСapacitance(double electricCapacitance, double angularFrequency){
+        return 1/(electricCapacitance*angularFrequency);
+    }
+
+    /**
+     * Возвращает полное сопротивление цепи (Z)
+     * @param resistorResistance - сопротивление резистора (R)
+     * @param reactanceСapacitance - реактивное сопротивление емкости (xC)
+     */
+    public double circuitImpedanceLab2(double resistorResistance, double reactanceСapacitance){
+        return Math.sqrt(Math.pow(resistorResistance,2)+Math.pow(reactanceСapacitance,2));
+    }
+
+    /**
+     * Возвращает действующее напряжение конденсатора (Uc)
+     * @param amperage - сила тока (I)
+     * @param reactanceСapacitance - реактивное сопротивление емкости (xC)
+     */
+    public double condenserVoltage(double amperage, double reactanceСapacitance){
+        return amperage*reactanceСapacitance;
+    }
+
+    /**
+     * Возвращает угол сдвига по фазе между входным напряжением u(t) и током i(t) для второй лабы. (φ)
+     * @param reactanceСapacitance - реактивное сопротивление емкости (xC)
+     * @param resistorResistance - сопротивление резистора (R)
+     */
+    public double phaseAngleLab2(double reactanceСapacitance, double resistorResistance){
+        return Math.atan2(-reactanceСapacitance,resistorResistance);
+    }
+
+    /**
      * Возвращает таблицу для вывода
      */
     abstract Table getTable();

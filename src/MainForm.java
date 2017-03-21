@@ -31,14 +31,14 @@ public class MainForm extends Application {
 
         initRootLayout();
 
-        showLabWork1();
+        showTabs();
         primaryStage.show();
     }
 
-    private void showLabWork1() {
+    private void showTabs() {
         try {
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("GUI/View/LabWork1Layout.fxml"));
+            loader.setLocation(getClass().getResource("GUI/View/tabsLayout.fxml"));
             TabPane personOverview = (TabPane) loader.load();
 
             // Помещаем сведения об адресатах в центр корневого макета.
