@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller.OscilloscopeLayoutController">
+   <center>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="364.0" prefWidth="290.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="17.0" prefWidth="302.0" text="Горизонтальная развёртка">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="17.0" prefWidth="338.0" text="Вертикальная развёртка">
+                     <VBox.margin>
+                        <Insets top="13.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="17.0" prefWidth="308.0" text="Периуд">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="17.0" prefWidth="297.0" text="Значение от середины да максимума" textAlignment="RIGHT">
+                     <VBox.margin>
+                        <Insets top="17.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="17.0" prefWidth="306.0" text="От вершины одной амплитуды до вершины другой">
+                     <VBox.margin>
+                        <Insets top="16.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="17.0" prefWidth="317.0" text="Частота" textAlignment="RIGHT">
+                     <VBox.margin>
+                        <Insets top="40.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="17.0" prefWidth="313.0" text="Напряжение" textAlignment="RIGHT">
+                     <VBox.margin>
+                        <Insets top="14.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="17.0" prefWidth="320.0" text="Сдвиг по фазе" textAlignment="RIGHT">
+                     <VBox.margin>
+                        <Insets top="14.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <TextField fx:id="tf_sweepHorizontalValue">
+                     <VBox.margin>
+                        <Insets left="3.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf_sweepVerticalValue">
+                     <VBox.margin>
+                        <Insets left="3.0" top="6.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf_numberOfDivisionsInPeriod">
+                     <VBox.margin>
+                        <Insets left="3.0" top="8.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf_numberOfDivisionsToMax">
+                     <VBox.margin>
+                        <Insets left="3.0" top="8.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf_numberOfDivisionsBetweenBeginningsPeriods">
+                     <VBox.margin>
+                        <Insets left="3.0" top="6.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label text="Результаты">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="tf_frequency">
+                     <VBox.margin>
+                        <Insets left="3.0" top="8.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf_voltage">
+                     <VBox.margin>
+                        <Insets left="3.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf_phaseShift">
+                     <VBox.margin>
+                        <Insets left="3.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+            </VBox>
+            <Button fx:id="btn_calculate" mnemonicParsing="false" text="Рассчитать">
+               <HBox.margin>
+                  <Insets left="50.0" top="100.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </center>
+</BorderPane>

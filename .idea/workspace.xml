@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97224721-5e93-4af1-ac95-179d82f04347" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BusinesLogic/Labs/LabWork2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GUI/Controller/LabWork2Controller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GUI/Controller/LabWorkController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GUI/Controller/TabsController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BusinesLogic/Labs/LabWork.java" afterPath="$PROJECT_DIR$/src/BusinesLogic/Labs/LabWork.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GUI/Controller/LabWork1Controller.java" afterPath="$PROJECT_DIR$/src/GUI/Controller/LabWork1Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainForm.java" afterPath="$PROJECT_DIR$/src/MainForm.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +24,7 @@
       <file leaf-file-name="MainForm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
+            <state relative-caret-position="374">
               <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -43,8 +36,8 @@
       <file leaf-file-name="LabWork2Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUI/Controller/LabWork2Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="107" column="8" lean-forward="true" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="29" />
+            <state relative-caret-position="1615">
+              <caret line="107" column="8" lean-forward="false" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="29" />
               <folding>
                 <element signature="e#1123#1124#0" expanded="true" />
                 <element signature="e#1161#1162#0" expanded="true" />
@@ -56,12 +49,10 @@
       <file leaf-file-name="LabWork1Controller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GUI/Controller/LabWork1Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="791">
-              <caret line="104" column="42" lean-forward="true" selection-start-line="104" selection-start-column="42" selection-end-line="104" selection-end-column="42" />
+            <state relative-caret-position="264">
+              <caret line="82" column="5" lean-forward="false" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1142#1143#0" expanded="true" />
-                <element signature="e#1180#1181#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,7 +71,7 @@
       <file leaf-file-name="TabsController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUI/Controller/TabsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="714">
               <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -92,11 +83,9 @@
       <file leaf-file-name="FXMLLoader.java" pinned="false" current-in-tab="false">
         <entry file="jar://E:/Installed/Programs/JDK/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="41157">
               <caret line="2575" column="0" lean-forward="false" selection-start-line="2575" selection-start-column="0" selection-end-line="2575" selection-end-column="0" />
               <folding>
-                <element signature="e#71768#71776#0" expanded="true" />
-                <element signature="e#71835#71853#0" expanded="true" />
                 <element signature="e#78827#78828#0" expanded="true" />
                 <element signature="e#78858#78859#0" expanded="true" />
                 <element signature="e#79010#79011#0" expanded="true" />
@@ -110,59 +99,23 @@
       </file>
       <file leaf-file-name="LabWork1Layout.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUI/View/LabWork1Layout.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
+            <state relative-caret-position="1207">
               <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
               <folding>
                 <marker date="1490118627685" expanded="true" signature="426:3801" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="490:3738" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="540:2212" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="563:622" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="642:2198" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="686:816" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="715:795" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="864:995" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="893:974" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="1052:1183" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="1081:1162" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="1241:1372" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="1270:1351" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="1441:1565" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="1470:1540" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="1720:1865" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="1749:1843" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="2032:2177" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="2061:2155" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="2262:3527" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="2282:3432" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="2336:2449" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="2365:2424" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="2508:2631" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="2537:2606" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="2694:2817" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="2723:2792" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="2883:3006" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="2912:2981" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="3056:3176" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="3085:3155" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="3275:3411" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="3304:3387" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="3455:3513" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="3613:3723" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="3636:3707" ph="..." />
-                <marker date="1490118627685" expanded="true" signature="3751:3793" ph="..." />
               </folding>
             </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="RootLayoutController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUI/Controller/RootLayoutController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="306">
               <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -247,10 +200,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -270,6 +222,7 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -357,6 +310,10 @@
               <option name="myItemId" value="BusinesLogic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -382,7 +339,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -641,13 +597,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33509514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -659,7 +614,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12447917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.124217115" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -670,6 +625,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33509514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -703,8 +659,6 @@
           <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -723,7 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -757,7 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -765,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -941,7 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -949,7 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -980,52 +929,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/View/LabWork1Layout.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
+        <state relative-caret-position="1207">
           <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
           <folding>
             <marker date="1490118627685" expanded="true" signature="426:3801" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="490:3738" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="540:2212" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="563:622" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="642:2198" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="686:816" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="715:795" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="864:995" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="893:974" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="1052:1183" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="1081:1162" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="1241:1372" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="1270:1351" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="1441:1565" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="1470:1540" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="1720:1865" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="1749:1843" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="2032:2177" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="2061:2155" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="2262:3527" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="2282:3432" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="2336:2449" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="2365:2424" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="2508:2631" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="2537:2606" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="2694:2817" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="2723:2792" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="2883:3006" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="2912:2981" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="3056:3176" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="3085:3155" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="3275:3411" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="3304:3387" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="3455:3513" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="3613:3723" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="3636:3707" ph="..." />
-            <marker date="1490118627685" expanded="true" signature="3751:3793" ph="..." />
           </folding>
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BusinesLogic/Labs/Table.java">
@@ -1038,7 +951,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/Controller/RootLayoutController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="306">
           <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1048,7 +961,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
+        <state relative-caret-position="374">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1058,11 +971,9 @@
     </entry>
     <entry file="jar://E:/Installed/Programs/JDK/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="41157">
           <caret line="2575" column="0" lean-forward="false" selection-start-line="2575" selection-start-column="0" selection-end-line="2575" selection-end-column="0" />
           <folding>
-            <element signature="e#71768#71776#0" expanded="true" />
-            <element signature="e#71835#71853#0" expanded="true" />
             <element signature="e#78827#78828#0" expanded="true" />
             <element signature="e#78858#78859#0" expanded="true" />
             <element signature="e#79010#79011#0" expanded="true" />
@@ -1083,7 +994,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/Controller/TabsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="714">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1101,8 +1012,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/Controller/LabWork2Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="107" column="8" lean-forward="true" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="29" />
+        <state relative-caret-position="1615">
+          <caret line="107" column="8" lean-forward="false" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="29" />
           <folding>
             <element signature="e#1123#1124#0" expanded="true" />
             <element signature="e#1161#1162#0" expanded="true" />
@@ -1112,12 +1023,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/Controller/LabWork1Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="791">
-          <caret line="104" column="42" lean-forward="true" selection-start-line="104" selection-start-column="42" selection-end-line="104" selection-end-column="42" />
+        <state relative-caret-position="264">
+          <caret line="82" column="5" lean-forward="false" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
           </folding>
         </state>
       </provider>
